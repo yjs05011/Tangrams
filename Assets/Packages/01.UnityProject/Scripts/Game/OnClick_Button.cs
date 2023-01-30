@@ -40,6 +40,6 @@ public class OnClick_Button : MonoBehaviour
         Play_UI.SetActive(false);
     }
     public void Play(){
-        SceneManager.LoadScene("Play");
+        GFunc.LoadScene("play");
     }
 }
