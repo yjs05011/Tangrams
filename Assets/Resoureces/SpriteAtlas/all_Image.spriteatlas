@@ -26,8 +26,8 @@ SpriteAtlas:
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 1
-      enableTightPacking: 1
+      enableRotation: 0
+      enableTightPacking: 0
       enableAlphaDilation: 0
     secondaryTextureSettings: {}
     variantMultiplier: 1
@@ -35,11 +35,19 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 2a01691a87fedbe4aa6de6f1c0c0f3d4, type: 3}
     - {fileID: 2800000, guid: 84356da12a8249c499e709f4475f15d8, type: 3}
     - {fileID: 2800000, guid: f3a57573101d00d4cbb6732e124a57b9, type: 3}
+    - {fileID: 2800000, guid: 7363f7097f7026247a928734ba5d8c79, type: 3}
+    - {fileID: 2800000, guid: 225f3ace6a245cd4b9a3fe0c9ca16e84, type: 3}
+    - {fileID: 2800000, guid: 323670ccc361c1b478328a5ad76feda6, type: 3}
+    - {fileID: 2800000, guid: 7bf1570023c44e84a9f577f94f09e72f, type: 3}
+    - {fileID: 2800000, guid: e882b8d9f87ee994b8ee77e7ad70f8b9, type: 3}
+    - {fileID: 2800000, guid: 1e1a97c4a06590845b771d5d258dcc70, type: 3}
+    - {fileID: 2800000, guid: d33fc5120a7a5884890b40abbba015f0, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 7bf1570023c44e84a9f577f94f09e72f, type: 3}
   - {fileID: -4812986843093696614, guid: 84356da12a8249c499e709f4475f15d8, type: 3}
   - {fileID: -8163231233905217999, guid: 84356da12a8249c499e709f4475f15d8, type: 3}
   - {fileID: 7427752583352021762, guid: 84356da12a8249c499e709f4475f15d8, type: 3}
@@ -75,6 +83,7 @@ SpriteAtlas:
   - {fileID: -184119079791723283, guid: 84356da12a8249c499e709f4475f15d8, type: 3}
   - {fileID: -267758133915289989, guid: 84356da12a8249c499e709f4475f15d8, type: 3}
   - {fileID: -6973779124946507235, guid: 84356da12a8249c499e709f4475f15d8, type: 3}
+  - {fileID: 21300000, guid: d33fc5120a7a5884890b40abbba015f0, type: 3}
   - {fileID: -572396936, guid: f3a57573101d00d4cbb6732e124a57b9, type: 3}
   - {fileID: 45994518, guid: f3a57573101d00d4cbb6732e124a57b9, type: 3}
   - {fileID: 1199649954, guid: f3a57573101d00d4cbb6732e124a57b9, type: 3}
@@ -143,6 +152,9 @@ SpriteAtlas:
   - {fileID: 2062145867, guid: f3a57573101d00d4cbb6732e124a57b9, type: 3}
   - {fileID: -853926840, guid: f3a57573101d00d4cbb6732e124a57b9, type: 3}
   - {fileID: -751935119, guid: f3a57573101d00d4cbb6732e124a57b9, type: 3}
+  - {fileID: 21300000, guid: 1e1a97c4a06590845b771d5d258dcc70, type: 3}
+  - {fileID: 21300000, guid: 7363f7097f7026247a928734ba5d8c79, type: 3}
+  - {fileID: 21300000, guid: e882b8d9f87ee994b8ee77e7ad70f8b9, type: 3}
   - {fileID: 5548767936245927627, guid: 2a01691a87fedbe4aa6de6f1c0c0f3d4, type: 3}
   - {fileID: -2891059516951804756, guid: 2a01691a87fedbe4aa6de6f1c0c0f3d4, type: 3}
   - {fileID: 1881423083123314185, guid: 2a01691a87fedbe4aa6de6f1c0c0f3d4, type: 3}
@@ -178,7 +190,10 @@ SpriteAtlas:
   - {fileID: -2024606662850549571, guid: 2a01691a87fedbe4aa6de6f1c0c0f3d4, type: 3}
   - {fileID: -2381500297140005776, guid: 2a01691a87fedbe4aa6de6f1c0c0f3d4, type: 3}
   - {fileID: -5908534354296120792, guid: 2a01691a87fedbe4aa6de6f1c0c0f3d4, type: 3}
+  - {fileID: 21300000, guid: 323670ccc361c1b478328a5ad76feda6, type: 3}
+  - {fileID: 21300000, guid: 225f3ace6a245cd4b9a3fe0c9ca16e84, type: 3}
   m_PackedSpriteNamesToIndex:
+  - Puzzle_parallelogle
   - isons2_11
   - isons2_10
   - isons2_13
@@ -214,6 +229,7 @@ SpriteAtlas:
   - isons2_30
   - isons2_27
   - isons2_34
+  - Puzzle_Square_1
   - tangram_8
   - tangram_9
   - tangram_48
@@ -282,6 +298,9 @@ SpriteAtlas:
   - tangram_10
   - tangram_19
   - tangram_18
+  - Puzzle_SmallTriangle_2
+  - Puzzle_BigTriangle
+  - Puzzle_SmallTriangle_1
   - isonswhite2_5
   - isonswhite2_4
   - isonswhite2_7
@@ -317,6 +336,8 @@ SpriteAtlas:
   - isonswhite2_11
   - isonswhite2_12
   - isonswhite2_13
+  - Puzzle_middleTriangle_1
+  - Puzzle_BigTriangle_2
   m_RenderDataMap: {}
   m_Tag: all_Image
   m_IsVariant: 0

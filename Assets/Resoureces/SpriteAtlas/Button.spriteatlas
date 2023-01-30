@@ -37,8 +37,148 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e4047f1078050064dbc10bd5a407974a, type: 3}
+  - {fileID: 21300000, guid: b5219f202af5bdd4e9fcb57fda99b78e, type: 3}
+  - {fileID: 21300000, guid: 7e688790d1df05840a900e54f7af828e, type: 3}
+  - {fileID: 21300000, guid: 4169d9a094f68d1438c1f9fe03aef3bd, type: 3}
+  - {fileID: 21300000, guid: 15a522d0e2dce05478bf9edcacc4297e, type: 3}
+  - {fileID: 21300000, guid: 40cc30e0527a8ed499251b53aca4a2a4, type: 3}
+  - {fileID: 21300000, guid: de91fcf09b3a58c40bd25a04beee4093, type: 3}
+  - {fileID: 21300000, guid: 89c89d31cbb023d4a87840ff06fe110e, type: 3}
+  - {fileID: 21300000, guid: f21f23419a77a524794ab294dffc013b, type: 3}
+  - {fileID: 21300000, guid: f9c3e861d74c4f0479a6a1decedcd28d, type: 3}
+  - {fileID: 21300000, guid: e46cac61e2e0ffd4eacf4576c5d901ff, type: 3}
+  - {fileID: 21300000, guid: 14858d71a730b4943b11f958bd10ae50, type: 3}
+  - {fileID: 21300000, guid: fa851e716c72bec419b716612454ae3d, type: 3}
+  - {fileID: 21300000, guid: 82306ec1555e74d41b5fc97d5e09f8e2, type: 3}
+  - {fileID: 21300000, guid: 145f9f42fbe978947a25b213c84e7c2b, type: 3}
+  - {fileID: 21300000, guid: f728b782d4a108045accfa920e1196de, type: 3}
+  - {fileID: 21300000, guid: 8117ad03e7d28324f97b6eddfdcd1e1d, type: 3}
+  - {fileID: 21300000, guid: 79042c13debeb044796be3b9aabbc85f, type: 3}
+  - {fileID: 21300000, guid: ca2a482305641c34d93a0ea0e546cf7c, type: 3}
+  - {fileID: 21300000, guid: 34c510437d4a64849902137b965707d4, type: 3}
+  - {fileID: 21300000, guid: cd411473b4cfcf74db90b5e7c62523eb, type: 3}
+  - {fileID: 21300000, guid: 69a693142e97477459702cd63f94a7e0, type: 3}
+  - {fileID: 21300000, guid: 0b9aaf1443f6b9844a66beafdcf25098, type: 3}
+  - {fileID: 21300000, guid: f183362426368e34496b9cd8904a5c1a, type: 3}
+  - {fileID: 21300000, guid: 4a7e5d2419d92754da4c0f6996f2e419, type: 3}
+  - {fileID: 21300000, guid: 3eb9334422defff42b79c46e59b2f7d6, type: 3}
+  - {fileID: 21300000, guid: 8b583b44f41f3a5408af4c2b94fda721, type: 3}
+  - {fileID: 21300000, guid: b75ba154dac4d664aba533ede099ae21, type: 3}
+  - {fileID: 21300000, guid: 214e42740cbf6c1448b1f08fb3e30a55, type: 3}
+  - {fileID: 21300000, guid: 0bd7ebb4d8b09d44ca8d8480cb9cba40, type: 3}
+  - {fileID: 21300000, guid: 21038cc4c655d464db6d0c68d260acd2, type: 3}
+  - {fileID: 21300000, guid: f954ddc440caa57419e70c4d3c8d8843, type: 3}
+  - {fileID: 21300000, guid: 8be411651107ec540ae7c916d2235051, type: 3}
+  - {fileID: 21300000, guid: 8cbb7fa52ff41954984ad7b3a7611167, type: 3}
+  - {fileID: 21300000, guid: 415f47e567b53254d89b2a71143dd6a6, type: 3}
+  - {fileID: 21300000, guid: d069eee53ae0d4a4e9a92c1eac8b065c, type: 3}
+  - {fileID: 21300000, guid: 36e1e0f5c2f8587439cd4531adf18c5c, type: 3}
+  - {fileID: 21300000, guid: 7c98ef26d36aa8b4aba693b5f40497fd, type: 3}
+  - {fileID: 21300000, guid: bb9e14963bf1eea4d9dec4fe54c1d800, type: 3}
+  - {fileID: 21300000, guid: 9fd81fd6038f7bb44ab675c198558be8, type: 3}
+  - {fileID: 21300000, guid: a21f6be6da0a2b74abf33a7485612782, type: 3}
+  - {fileID: 21300000, guid: 765c1f075652d7c429d7ea036691f745, type: 3}
+  - {fileID: 21300000, guid: f3af77a762630694eaf22814ab6720d9, type: 3}
+  - {fileID: 21300000, guid: b8afb8b70f13a3f48806bf2a7550a7f5, type: 3}
+  - {fileID: 21300000, guid: ce9a9009142e1b04ebebbacbd4ea07d6, type: 3}
+  - {fileID: 21300000, guid: 47d2e7097cc912d40971fcca6913d3d3, type: 3}
+  - {fileID: 21300000, guid: 32d3bb09bf130af4fb377fff97a9fdf9, type: 3}
+  - {fileID: 21300000, guid: 507d7869273b8054b8ca31e853b6b39c, type: 3}
+  - {fileID: 21300000, guid: 2a5bbba961e88c446baa1abd22683e28, type: 3}
+  - {fileID: 21300000, guid: 4c17724abd1a5254f93804bb45fe6cfc, type: 3}
+  - {fileID: 21300000, guid: ebe09f4a5655764478eb1eaf871ee9ab, type: 3}
+  - {fileID: 21300000, guid: 17bd7baa51c566f4dbc8839abd07fbb3, type: 3}
+  - {fileID: 21300000, guid: b99133ea3fb2c3f47be0f31b292daf4a, type: 3}
+  - {fileID: 21300000, guid: 125772fa577f22c42971097edbeefae9, type: 3}
+  - {fileID: 21300000, guid: 84c7515b38823fe45883fb4257d278ae, type: 3}
+  - {fileID: 21300000, guid: 3ec822cb93351794ea0f21230f0d5d03, type: 3}
+  - {fileID: 21300000, guid: e9f6aafb7c1ac98418d3b3877065d261, type: 3}
+  - {fileID: 21300000, guid: ff24c02cb4cb49e4785ad1a46df6a6b4, type: 3}
+  - {fileID: 21300000, guid: da9f666cc08d2574087de987fd6feb78, type: 3}
+  - {fileID: 21300000, guid: 503088ec4a4a1d4489b47a8a26098b49, type: 3}
+  - {fileID: 21300000, guid: 7f4dc7bd10a451142a52da3094c23e3a, type: 3}
+  - {fileID: 21300000, guid: 0ddd7add4d7a82545b7a9d8e26102d78, type: 3}
+  - {fileID: 21300000, guid: 17f22ddd6c4bb6149b3d9f5e99f2a8d4, type: 3}
+  - {fileID: 21300000, guid: b49a694ebba53cd4bbf1230c480b77e7, type: 3}
+  - {fileID: 21300000, guid: e48b869e1b13ad54295d3d9efb9e78bf, type: 3}
+  - {fileID: 21300000, guid: e4b7033fca3bc0e4192a1b77d73431d7, type: 3}
+  - {fileID: 21300000, guid: 08d0b55f1b235c9499e8ee24e789198c, type: 3}
+  - {fileID: 21300000, guid: 434fa6af2ca63ad4ba4ea00b9270653b, type: 3}
+  - {fileID: 21300000, guid: 7554aabff725fdc419da6efe95d2adf6, type: 3}
+  - {fileID: 21300000, guid: 686b21df6206ff24b9468b2a60530b5a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - button2_rounded_HCC
+  - background
+  - filled_horizontal
+  - handle
+  - Slot_rounded_CC
+  - arrow_CC
+  - off2
+  - border
+  - on3
+  - filled_vertical
+  - bar_rounded_HCC_horizontal
+  - button_rounded_HCC
+  - button_1
+  - health_bar
+  - button2_rounded_CC
+  - Border
+  - Background_CC_rounded
+  - button_1
+  - handle
+  - Slot
+  - background_background
+  - background_vertical
+  - border_Rounded_HCC
+  - InputField
+  - slot
+  - button_2
+  - bar_rounded_CC_Vertical
+  - dropdown_rounded_CC
+  - button_small_1
+  - dropdown_GB
+  - dropdown_HCC
+  - health_bar
+  - handle
+  - background
+  - Background
+  - button_small_2
+  - filled_horizontal
+  - InputField_Rounded_HCC
+  - off
+  - Background
+  - bar_rounded_HCC_Vertical
+  - Slot3D
+  - dropdown_rounded_GB
+  - filled_vertical
+  - dropdown_CC
+  - filled
+  - filled_Vertical
+  - Slot3D_rounded_CC
+  - health_Bar_Vertical
+  - Background_vertical
+  - bar_rounded_CC_horizontal
+  - button_2
+  - Slot_rounded_HCC
+  - Background_HCC_rounded
+  - on 1
+  - button_small_1
+  - Slot3D_rounded_HCC
+  - border_Rounded_CC
+  - handle
+  - button_small_2
+  - dropdown_rounded_HCC
+  - on2
+  - health_Bar_vertical
+  - background_Vertical
+  - slot3D
+  - background
+  - background_horizontal
+  - button_rounded_CC
+  - InputField_CC
+  - handle
   m_RenderDataMap: {}
   m_Tag: Button
   m_IsVariant: 0

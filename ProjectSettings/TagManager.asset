@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PlayFiled
   - Water
   - UI
   - PopUp
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: playeFiled
+    uniqueID: 3622234019
+    locked: 0
+  - name: Ui
+    uniqueID: 195597003
+    locked: 0
+  - name: PopUp
+    uniqueID: 93864875
     locked: 0
