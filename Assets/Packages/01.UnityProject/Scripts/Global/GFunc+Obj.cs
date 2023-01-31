@@ -54,6 +54,12 @@ public static partial class GFunc
         return targetObj_;
     }       // GetRootObj()
 
+    //! RectTransform 을 찾아서 리턴하는 함수
+    public static RectTransform GetRect(this GameObject obj_)
+    {
+        return obj_.GetComponentMust<RectTransform>();
+    }       // GetRect()
+
     //! RectTransform 에서 sizeDelta를 찾아서 리턴하는 함수
     public static Vector2 GetRectSizeDelta(this GameObject obj_)
     {
@@ -82,6 +88,20 @@ public static partial class GFunc
             obj_.transform.localPosition + new Vector3(x, y, z);
     }       // AddLocalPos()
 
+    //! 오브젝트의 앵커 포지션을 연산하는 함수
+    public static void AddAnchoredPos(this GameObject obj_,
+        float x, float y)
+    {
+        obj_.GetRect().anchoredPosition += new Vector2(x, y);
+    }       // AddAnchoredPos()
+
+    //! 오브젝트의 앵커 포지션을 연산하는 함수
+    public static void AddAnchoredPos(this GameObject obj_,
+        Vector2 position2D)
+    {
+        obj_.GetRect().anchoredPosition += position2D;
+    }       // AddAnchoredPos()
+
     //! 트랜스폼을 사용해서 오브젝트를 움직이는 함수
     public static void Translate(this Transform transform_, Vector2 moveVector)
     {
@@ -100,4 +120,10 @@ public static partial class GFunc
         return component_;
     }       // GetComponentMust()
 
+    //! 새로운 오브젝트를 만들어서 컴포넌트를 리턴하는 함수
+    public static T CreateObj<T>(string objName) where T : Component
+    {
+        GameObject newObj = new GameObject(objName);
+        return newObj.AddComponent<T>();
+    }       // CreateObj()
 }
